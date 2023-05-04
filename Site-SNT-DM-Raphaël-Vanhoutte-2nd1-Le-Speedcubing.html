@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="GAN 356 M.jpg">
+</head>
+<!-- Merci à https://www.linuxtricks.fr/wiki/html-js-css-creer-un-bouton-vers-le-haut-sur-son-site -->
+<style>
+  #scrollUp
+  {
+  position: fixed;
+  bottom : 10px;
+  right: -100px;
+  opacity: 0.7;
+  }
+  </style>
+   
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+   
+  <script>
+              jQuery(function(){
+                  $(function () {
+                      $(window).scroll(function () {
+                          if ($(this).scrollTop() > 200 ) { 
+                              $('#scrollUp').css('right','10px');
+                          } else { 
+                              $('#scrollUp').removeAttr( 'style' );
+                          }
+   
+                      });
+                  });
+              });
+  </script>
+
+<body>
+  <body>
+    <div class="btn"> <img src="http://louis-herr.fr/images/logo.ico" alt="Logo Site Mr Herr" class="icone" onclick="location.href='http:// louis-herr.fr/student_website/site_des_eleves.php';">
+    </div>
+  <header >
+    <a class="Rickrollspeedcubing1" class="menu" href="https://urlz.fr/g15B">
+      Le Speedcubing
+    </a>
+    <img class="logo" src="Logo.jpg" alt="Logo" height="50px" />
+    <nav>
+      <div class="flex">
+        <a class="navbar" href="#intro">Introduction</a>
+        <a class="navbar" href="#Méthode">Les méthodes</a>
+        <a class="navbar" href="#Events">Les Events officiels</a>
+        <a class="navbar" href="#Compétition">Compétitions et record</a>
+      </div>
+    </nav>
+    <!-- j'ai du trouver ça sur youtube il y a quelques mois -->
+  </header>
+  <main class="speedcubing_main">
+    <div class="rect_left" id="intro">
+      <h2 class="h2_left">Introduction</h2>
+      <p class="text_left">
+        Le Speedcubing est une discipline, un sport, un art, qui consiste à
+        résoudre le Rubik's Cube le plus rapidement possible. Il rassemble des
+        milliers de pratiquants autour du monde qui
+        s'affrontent lors de compétitions à travèrs le monde. En 2022, il y a
+        eu 1083 compétitions homologués par la
+        <a href="https://www.worldcubeassociation.org/" target="_blank">WCA ( World Cube Association ) </a>dans le
+        monde.
+        Il existe un total de 17 event ( disciplines ) que vous pourrez decouvrir un peu plus bas
+      </p>
+    </div>
+    <div class="Méthodes" id="Méthode">
+      <h2 class="h2_right">Méthode</h2>
+      <p class="text_right">
+        Interessons nous à la méthode pour rédoudre le 3x3 la plus utilisé par les speedcubers. Il s'agit de la methode
+        inventé par Jessica Fridrich, la méthode CFOP, acronyme de Cross, F2L, OLL et PLL. Elle consiste à faire une
+        croix, puis résoudre les deux premiers étages ( First 2 Layers ), puis orientation le dernier étage (
+        Orientation
+        of Last Layer ) et enfin permuter les pieces du dernier étage ( Permutation of Last Layer ). Il existe 41 cas
+        différents de F2L, qui se résoudent intuitivement. Pour résoudre le dernier étage, il y a beauoup de manières et
+        de set d'algorithmes différents. On se base sur 2 étapes : orienter puis permuter les pieces. Tout d'abord la
+        méthode simplifié, consiste à la resoudre en 2 étapes divisé en 2 algorithmes, soit 4 étapes. il existe pour
+        chaques étapes réspectivement 3, 7, 2 et 4 algorithmes soit un total de 16 algorithmes. Pour la méthode avancée,
+        il n'y a plus que 2 étapes onc plus que 2 algorithmes à faire qui sont au nombre de 47 et 21 soit 68
+        algorithmes.
+        Il existe enfin un set d'algorithmes ULTIME, tellement grand et compliqué qu'il existe à l'heure actuel UNE
+        SEULE
+        PERSONNE AU MONDE qui a revendiquée tous les connaitres. Elle consiste tout simplement à résoudre le dernier
+        étage
+        une seule étape, AVEC UN SEULE ALGORITHME, et ce set d'algorithme comprte pas moins de 3915 cas différents , oui
+        c'est ENORME.
+        <br>
+        <a href="https://www.youtube.com/watch?v=DIUZRrs_OYo&t=977s&ab_channel=VictorColin" target="_blank">Un petit
+          tuto
+          youtube récapitulatif</a>
+      </p>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><!--Oui cela est extrêment moche mais j'ai la flemme ---->
+    <h2 class="Les_events_offi" id="Events">Les Events officiels</h2>
+    <br>
+    <div class="flex-container">
+      <div class="flex-items"><img src="2x2.jpg" height="150px" alt="Un rubik's cube 2x2">
+        <p>Rubik's cube 2x2</p>
+      </div>
+      <div class="flex-items"><img src="3x3.jpg" height="150px" alt="Un rubik's cube 3x3">
+        <p>Rubik's cube 3x3</p>
+      </div>
+      <div class="flex-items"><img src="4x4-7x7.jpg" height="150px" alt="Un rubik's cube 4x4 jusqu'à 7x7">
+        <p>Rubik's cube 4x4 jusqu'à 7x7</p>
+      </div>
+      <div class="flex-items"><img src="OH.png" height="150px" alt="Résolution à une main">
+        <p>Résolution à une main ( OH )</p>
+      </div>
+      <div class="flex-items"><img src="3bld.png"" height=" 150px" alt="Réulution d'un 3x3 à l'aveugle">
+        <p>Réulution d'un 3x3 à l'aveugle ( 3blind )</p>
+      </div>
+      <div class="flex-items"><img src="4 et 5 bld.png" height="150px" alt="Résolution d'un 4x4 / 5x5 à l'aveugle">
+        <p>Résolution d'un 4x4 / 5x5 à l'aveugle ( 4 / 5 blind )</p>
+      </div>
+      <div class="flex-items"><img src="Multi-blind.png" height="150px" alt="Résolution de plusieurs 3x3 à l'aveugle">
+        <p>Résolution de plusieurs 3x3 à l'aveugle</p>
+      </div>
+      <div class="flex-items"><img src="FMC.png" height="150px" alt="Logo FMC">
+        <p>Résolution d'un 3x3 avec <br> le moins de mouvement possible <br>( Fewest Moves Challenge )</p>
+      </div>
+      <div class="flex-items"><img src="Clock.jpg" height="150px" alt="CLock">
+        <p>Resution d'un Rubik's Clock</p>
+      </div>
+      <div class="flex-items"><img src="Pyra.jpg" height="150px" alt="Pyraminx">
+        <p>Résolution d'un Pyraminx</p>
+      </div>
+      <div class="flex-items"><img src="Mega.jpg" height="150px" alt="Megaminx">
+        <p>Résolution d'un Megaminx </p>
+      </div>
+      <div class="flex-items"><img src="Skewb.jpg" height="150px" alt="Skewb">
+        <p>Résolution d'un Skewb</p>
+      </div>
+      <div class="flex-items"><img src="square-1.jpg" height="150px" alt="Square-one">
+        <p>Résolution d'un Square-1</p>
+      </div>
+    </div>
+    <div class="rect_left" id="Compétition">
+      <h2 class="h2_left">Les compétitions et records</h2>
+      <p class="text_left"> Comment ce déroule une compétition ? Dans la plupart des disciplines, le participant
+        effectue 5 résolutions, et l'on fais la moyenne de ses temps en enlevant le meilleur et le pire temps. Pour que
+        cela soit égale, tous les participants ont les mêmes mélanges. Quand le compétiteur arrive sur le table, le
+        rubik's cube est caché sous une boite. Quand il est prêt, il enlève la boite et commence l'inspection.
+        l'inspection dure 15 secondes, et un juge est là pour surveiller qu'il ne dépasse le temps, sinon il a une
+        pénalité. Une fois l'inspection terminée, il pose le cube, met ces deux mains sur le chronomètre ( image ci-dessous ) puis les enlève et attrape le cube et le résout. Une fois qu'il pense l'avoir résolut, il le lache et
+        appuis à nouveau sur le chronomètre avec ces deux mains pour l'arrêter. Si sa moyenne est assez bonne il passe
+        au tour suivant. Il existe 2 pénalités, le +2, qui rajoutte 2 secondes au temps et le DNF ( Did Not Finish ) qui
+        est le pire temps possible à avoir. On peut recevoir ces pénalités pour plusiuers raisons : 
+        <ul> 
+          <li> Inspetion trop longue ( 16/17s = +2, +17s = DNF )</li>
+          <li> Arrêter le chronométre alors que le cube n'est pas entièrement résolut ( 1 mouvement restant = +2, 2 mouvement ou plus = DNF )</li>
+          <li> Si il touche le cube au momment de lancer ou arrêter le chornomètre, il écope d'une péanlité de 2 secondes</li>
+          <li><a href="https://www.worldcubeassociation.org/regulations/#contents" target="blank">Réglement complet</a></li>
+        </ul>
+        <br>
+        <a class="text_left" href="https://www.worldcubeassociation.org/results/records?event_id=all%2Bevents&gender=All&region=world" target="_blank">Voici la liste complète et officielle des records</a>
+      </p>
+      
+    </div>
+    <img class="stack" src="Speed_Stacks.jpg" alt="stakcmat image" >
+  </main>
+  <div id="scrollUp">
+    <a href="#top"><img src="To_top.png"/></a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,310 @@
+/***********header************/
+.btn{
+  height: 100px; 
+  width: 100px; 
+  border-radius: 50%; 
+  display: flex; 
+  justify-content: center; 
+  align-items:center; 
+  position: fixed; 
+   left: 0px; 
+   bottom: 0px;
+}
+.icone{
+width: 50px; 
+cursor: pointer;
+}
+header{
+    background: rgba(45, 45, 45, 0.763);
+    height: 100px;
+    padding-top: 00px;
+    margin: 0;
+}
+
+
+
+
+.Rickrollspeedcubing1{
+    text-align: center;
+    display: block;
+    font-size: 2.5rem;
+    position: relative;
+    color: white;
+    height: auto;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    text-decoration: none;
+}
+
+.menu{
+    display: block;
+    margin: 0 38%;
+
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    border: 5px black;
+    }
+    
+    .navbar{
+        padding: 10px 20px;
+        background-color: rgba(45, 45, 45, 0.763);
+        color: rgb(255, 249, 249);
+        text-decoration: none;
+        width: 33%;
+        text-align: center;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        border-top: 4px solid black;
+        border-bottom: 4px solid black;
+        text-decoration: underline;
+    
+    }
+    
+    .navbar:hover{
+        background: rgb(0, 0, 0);
+        color: white;
+    
+    }
+
+.logo{
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
+}
+
+
+/**************Main***********************/
+    
+
+body{
+        margin-top: 0%;
+        margin-left: 0;
+        margin-right: 0;
+        background: url(Background.jpg) fixed center no-repeat ;
+        background-size: cover;
+
+        
+    }
+p{
+    color:white;
+}
+a{
+    color: white
+
+}
+a:hover{
+    color: blue;
+}
+
+.rect_left{
+    color: white;
+    background: rgba(45, 45, 45, 0.9);
+    width: 80% ;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    padding-top: 1px;
+
+}
+
+.h2_left{
+    text-align: center;
+}
+
+.text_left{
+    color: white;
+    margin-left: 10px;
+    margin-right: 15px;
+    width: 75%;
+    
+}
+
+.Méthodes{
+    color: white;
+    background: rgba(45, 45, 45, 0.9);
+    width: 80%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    position: absolute;
+    right: 0px;
+}
+
+.h2_right{
+    text-align: center;
+}
+
+.text_right{
+    color: white;
+    margin-left: 50px;
+    margin-right: 15px;
+    text-align: right;
+}
+/***********image des events*****************/
+ .Les_events_offi{
+    text-align: center;
+    color: white;
+    size: 3em;
+
+}
+.flex-items > img{
+    height: 150px;
+    width: auto;
+    margin: 25px; display: block;
+}
+.flex-items > p{
+    text-align: center;
+}
+ 
+/* MERCI LES GENERATEURS DE FLEXBOX <3 */
+
+ .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: normal;
+    align-content: normal;
+  }
+  
+  .flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(3) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(4) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(5) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(6) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(7) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(8) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(9) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(10) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(11) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(12) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(13) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(14) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+
+
+.stack{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin-top: 15px;
+}
