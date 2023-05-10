@@ -161,8 +161,16 @@ a:hover{
 }
 .flex-items > p{
     text-align: center;
+    text-decoration: none;
 }
- 
+
+.Lien-wr>p{
+  text-align: center;
+  color: white;
+  }
+  .Lien-wr>p:hover{
+    color: blue;
+  }
 /* MERCI LES GENERATEURS DE FLEXBOX <3 */
 
  .flex-container {
