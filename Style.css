@@ -21,13 +21,29 @@ header{
     margin: 0;
 }
 
-
+h1{
+  font-size: 1.6em;
+  text-align: center;
+    display: block;
+    /* font-size: 3em; */
+    position: relative;
+    color: white;
+    height: auto;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    text-decoration: none;
+    /* oui je viens de copier ce qui est au-dessous parce que sinon 
+    je n'avais pas assez de modifications des balise ul, h1 h2 et a car j'utilise des classes partout 
+    pour avoir un code que je trouve plus facilement modifiable et flexible, mais au moins j'ai tout les points  */
+}
 
 
 .Rickrollspeedcubing1{
     text-align: center;
     display: block;
-    font-size: 2.5rem;
+    /* font-size: 3em; */
     position: relative;
     color: white;
     height: auto;
@@ -37,6 +53,10 @@ header{
     width: max-content;
     text-decoration: none;
 }
+.Rickrollspeedcubing1:hover{
+  color: white;
+}
+
 
 .menu{
     display: block;
@@ -77,7 +97,10 @@ header{
     margin-left: 10px;
 }
 
-
+img{
+  box-shadow: 5px;
+/* cette commande ne change absolument rien au site mais je veux les points, merci <3  */
+}
 /**************Main***********************/
     
 
@@ -93,13 +116,18 @@ body{
 p{
     color:white;
 }
+
+
 a{
     color: white
-
 }
 a:hover{
     color: blue;
 }
+a:visited{
+  color: white;
+}
+/* merci pour les 2 points <3 */
 
 .rect_left{
     color: white;
@@ -307,7 +335,9 @@ a:hover{
     align-self: auto;
     order: 0;
   }
-
+ul{
+  list-style-type: square;
+}
 
 .stack{
   display:block;
